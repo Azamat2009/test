@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+@keyframes ani {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.first-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 65%;
+  text-align: left;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #3D5A80;
+}
+.first-block .wepro {
+  font-size: 35px;
+}
+.first-block h2 {
+  font-size: 30px;
+  font-weight: 590;
+}
+.first-block h3 {
+  font-size: 30px;
+}
+
+.second-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 65%;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #3D5A80;
+}
+.second-block .btns {
+  display: flex;
+}
+.second-block .btns button {
+  all: unset;
+  border: 1px solid white;
+  padding: 8px 12px;
+}
+.second-block .btns button:hover {
+  background-color: white;
+  color: black;
+}
+.second-block .btns button:active {
+  background-color: white;
+  color: black;
+}
+.second-block .btns .left-btn {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.second-block .btns .right-btn {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.second-block .btns .middle-btn {
+  border-radius: 0px !important;
+}
+.second-block input {
+  all: unset;
+  padding: 10px 15px;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+.third-block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  gap: 15px;
+  width: 65%;
+  padding: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: #3D5A80;
+}
+.third-block input {
+  all: unset;
+  width: 300px;
+  padding: 10px 15px;
+  text-align: left;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+.third-block button {
+  all: unset;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 8px 12px;
+}
+.third-block button:hover {
+  background-color: white;
+  color: black;
+}
+.third-block button:active {
+  background-color: white;
+  color: black;
+  scale: 0.9;
+}
+
+ul {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+}
+ul li {
+  display: flex;
+  padding: 25px 25px;
+  box-shadow: 0px 0px 15px 0px #c4c4c4;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+ul li .right-li span {
+  cursor: pointer;
+}
+ul li .left-li {
+  display: flex;
+}
+ul li .left-li h2 {
+  margin-right: 100px;
+  text-decoration: none;
+}
+ul li .left-li a {
+  text-decoration: none;
+}
+ul li .left-li img {
+  margin-top: 3px;
+  background-color: #e2e1e1;
+  border-radius: 5px;
+  width: 30px;
+  background-size: contain;
+  height: 30px;
+  margin-left: 5px;
+}
+ul li .left-li .star {
+  all: unset;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 3px;
+  display: none;
+}
+ul li .left-li .star-active {
+  all: unset;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 3px;
+  display: block;
+  animation: ani 0.5s ease-in-out;
+}
+
+.h2-active {
+  color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.worker {
+  width: 45%;
+  text-align: left;
+}
+
+span {
+  color: white;
+}/*# sourceMappingURL=dsds.css.map */

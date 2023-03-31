@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "fullname": "Рахматов Азамат",
+      "salary": "6.62",
+      "increase": true,
+      "id": 1,
+      "starred": true
+    },
+    {
+      "fullname": "Хасанзода Камрон",
+      "salary": "6.12",
+      "increase": true,
+      "id": 2,
+      "starred": true
+    },
+    {
+      "fullname": "Арифулин Далер",
+      "salary": "3441",
+      "increase": true,
+      "id": 3,
+      "starred": true
+    },
+    {
+      "fullname": "Хасанов Искандар",
+      "salary": "4.57",
+      "increase": true,
+      "id": 5,
+      "starred": true
+    },
+    {
+      "fullname": "Муродов Хожиакбар",
+      "salary": "8.16",
+      "increase": false,
+      "id": 6,
+      "starred": false
+    }
+  ]
+}

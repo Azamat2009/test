@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef5456d2fd780f414cd33ccf805a09649c08996.jpg">
+    <title>test 2</title>
+    <link rel="stylesheet" href="./styles/dsds.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <center>
+        <div class="first-block">
+            <h1 class="wepro">Учет сотрудников в компании Wepro</h1>
+            <h2>Общее число сотрудников:</h2>
+            <h3 id="award">Премию получат: 1</h3>
+        </div>
+        <br>
+        <div class="second-block">
+            <input id="search" placeholder="Найти сотрудника" name="search" type="search">
+            <div class="btns">
+                <button class="left-btn">Все сотрудники</button>
+                <button class="middle-btn">На повышение</button>
+                <button class="right-btn">З/П больше 1000$</button>
+            </div>
+        </div>
+        <br>
+        <ul>
+
+        </ul>
+        <br>
+        <div class="third-block">
+            <h2>Добавьте нового сотрудника</h2>
+            <div class="btns">
+                <input id="newUserName" placeholder="Добавить нового сотрудника" name="add user" type="text">
+                <input id="newSalary" placeholder="З/П в $" name="add salary" type="number">
+                <button id="addUserBtn">Добавить</button>
+            </div>
+        </div>
+    </center>
+
+    <script type="module" src="./modules/salaryBtn.js"></script>
+    <script type="module" src="./modules/increas.js"></script>
+    <script type="module" src="./modules/allUsers.js"></script>
+    <script type="module" src="./modules/index.js"></script>
+</body>
+</html>
